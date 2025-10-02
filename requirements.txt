@@ -1,0 +1,48 @@
+# Core data science libraries
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Text preprocessing
+nltk>=3.6.0
+scikit-learn>=1.0.0
+
+# Traditional ML models (included in scikit-learn)
+# - LogisticRegression
+# - SVM
+# - MultinomialNB
+# - RandomForestClassifier
+
+# Deep Learning
+tensorflow>=2.8.0
+# OR PyTorch (alternative)
+# torch>=1.11.0
+# torchtext>=0.12.0
+
+# Word embeddings
+gensim>=4.1.0
+
+# Evaluation and metrics (included in scikit-learn)
+# - accuracy_score
+# - precision_score
+# - recall_score
+# - f1_score
+# - confusion_matrix
+# - classification_report
+
+# Data visualization
+plotly>=5.0.0
+wordcloud>=1.8.0
+
+# Jupyter notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: Pre-trained embeddings
+# spacy>=3.4.0
+# transformers>=4.15.0
+
+# Utilities
+tqdm>=4.62.0
+requests>=2.25.0
