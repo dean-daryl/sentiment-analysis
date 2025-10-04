@@ -24,23 +24,14 @@ This project implements and compares various machine learning models for sentime
 
 ```
 sentiment-analysis/
-├── README.md                          # Project documentation
-├── requirements.txt                   # Python dependencies
-├── sentiment_analysis_template.ipynb  # Main notebook template
-├── data/                              # Dataset folder (create this)
-│   └── raw/                          # Raw data files
-│   └── processed/                    # Preprocessed data
-├── models/                           # Saved models (create this)
-│   └── traditional/                  # Traditional ML models
-│   └── deep_learning/               # Deep learning models
-├── results/                          # Results and visualizations (create this)
-│   └── figures/                     # Generated plots
-│   └── experiment_results/          # Experiment outputs
-└── src/                             # Source code modules (optional)
-    ├── preprocessing.py             # Text preprocessing functions
-    ├── feature_engineering.py      # Feature extraction
-    ├── models.py                   # Model implementations
-    └── evaluation.py              # Evaluation metrics
+
+├── .ipynb_checkpoints/         # Jupyter notebook checkpoints
+├── results/                    # Results from experiments
+├── visualization/              # Visualizations and plots
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+└── sentiment_analysis.ipynb    # Main notebook
+
 ```
 
 ## 🚀 Getting Started
@@ -48,7 +39,7 @@ sentiment-analysis/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/dean-daryl/sentiment-analysis.git
 cd sentiment-analysis
 ```
 
