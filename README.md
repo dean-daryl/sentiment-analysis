@@ -170,6 +170,8 @@ Document why each metric is appropriate for your specific task and dataset chara
 ### Experiment 2: Deep Learning Architecture Variations
 | Model | Embedding Dim | Hidden Units | Dropout | Batch Size | Epochs | Accuracy | F1-Score | Cross-Entropy |
 |-------|---------------|--------------|---------|------------|--------|----------|----------|---------------|
+| GRU   | 128           | 64           | 0.5     | 32         | 3      | 0.882    | 0.885    | 0.296         |
+
 
 ## 👥 Team Collaboration
 
