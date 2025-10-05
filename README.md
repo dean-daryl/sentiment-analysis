@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-**Team**: Group 10 - Dean Daryl Murenzi, Nelly Iyabikoze, Excel Asaph  
+**Team**: Group 10
 **Course**: Machine Learning Techniques - I    
 
 A text classification system comparing traditional machine learning and deep learning approaches for sentiment analysis on the IMDB Movie Reviews dataset.
