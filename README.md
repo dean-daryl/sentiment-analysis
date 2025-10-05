@@ -158,8 +158,8 @@ jupyter notebook sentiment_analysis.ipynb
 **Team**: Group 10
 
 ### Individual Contributions
-- **Dean Daryl Murenzi**: SVM model, Dataset acquisition, EDA implementation, hyperparameter tuning
-- **Nelly Iyabikoze**: GRU ML model, Performance evaluation, visualizations creation, confusion matrix analysis  
+- **Dean Daryl Murenzi**: SVM model, Dataset acquisition, EDA implementation, Performance evaluation
+- **Nelly Iyabikoze**: GRU ML model, hyperparameter tuning, visualizations creation, confusion matrix analysis  
 - **Excel Asaph**: Logistic Regression and LSTM model, Dataset acquisition, preprocessing pipeline
 
 ## Report
