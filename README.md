@@ -164,4 +164,4 @@ jupyter notebook sentiment_analysis.ipynb
 
 ## Report
 
-The full academic report is available at [`report/report.md`](report/report.md)
+The full academic report is available at [`report/report.pdf`](report/report.pdf)
