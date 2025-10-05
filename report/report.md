@@ -1,8 +1,8 @@
 # Sentiment Analysis Classification System - Team Contributions Report
 
 **Project**: Sentiment Analysis using Traditional ML and Deep Learning Models  
-**Course**: Machine Learning Techniques I  
-**Team**: Group 7  
+**Course**: Machine Learning Techniques - I  
+**Team**: Group 10  
 **GitHub Repository**: [https://github.com/dean-daryl/sentiment-analysis](https://github.com/dean-daryl/sentiment-analysis)  
 **Dataset Source**: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
