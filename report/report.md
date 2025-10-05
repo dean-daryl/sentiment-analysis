@@ -285,6 +285,14 @@ GRUs provide a good balance between computational efficiency and sequence modeli
 - Competitive accuracy with reduced model complexity
 - Good balance between precision and recall
 
+#### SVM Confusion Matrix
+![SVM Confusion Matrix](../visualization/svm_cm.png)
+
+**Key Observations:**
+- Best overall classification performance with highest accuracy (88.90%)
+- Lower false negative rate (544) compared to false positive rate (632)
+- Shows excellent generalization with proper regularization (C=0.1)
+
 ### Training Curves Analysis
 
 #### LSTM Training History
