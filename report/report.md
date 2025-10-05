@@ -347,7 +347,7 @@ GRUs provide a good balance between computational efficiency and sequence modeli
 
 ---
 
-## Team Member Contributions
+## Team Members Contributions
 
 ### Excel Asaph 
 **Contribution:**
@@ -357,59 +357,19 @@ GRUs provide a good balance between computational efficiency and sequence modeli
 - **Exploratory Data Analysis**: Created visualizations including sentiment distribution, review length analysis, and word clouds
 - **Data Cleaning**: Handled missing data analysis, duplicate detection and removal
 
-### Dean Daryl Murenzi - Machine Learning Engineer & SVM Specialist
+### Dean Daryl Murenzi
 **Contribution:**
 - **Support Vector Machine (SVM) Implementation**: Optimized and trained LinearSVM model with comprehensive hyperparameter tuning
 - **SVM Performance Analysis**: Conducted detailed analysis of regularization parameter effects on model performance
 - **Visualization**: Created SVM-specific visualizations including hyperparameter effect plots and confusion matrix analysis
 - **Model Comparison**: Developed Comparison for SVM performance against other models
 
-### Nelly Iyabikoze - Deep Learning Specialist & GRU Expert
+### Nelly Iyabikoze
 **Contribution:**
 - **GRU Neural Network Implementation**: Trained GRU model with metric tracking
 - **Metrics Implementation**: Extended evaluation to include precision, recall, and cross-entropy loss
-- **Deep Learning Optimization**: Conducted hyperparameter tuning across multiple optimizer and batch size configurations
-- **Performance Visualization**: Created GRU-specific training curves and confusion matrix visualizations
-
----
-
-## Conclusions
-
-This sentiment analysis project successfully demonstrates the effectiveness of both traditional machine learning and deep learning approaches for binary text classification. Our systematic experimental approach yielded several important insights:
-
-### Model Performance Conclusions
-
-1. **Traditional ML Excellence**: Support Vector Machine achieved the highest accuracy (88.90%), closely followed by Logistic Regression (88.79%), demonstrating that well-tuned traditional models can outperform deep learning approaches for sentiment analysis tasks.
-
-2. **Deep Learning Competitiveness**: Both LSTM (88.32%) and GRU (88.02%) achieved strong performance, with GRU offering better computational efficiency while maintaining competitive accuracy.
-
-3. **Regularization Criticality**: Proper regularization proved essential across all models, with strong regularization (SVM C=0.1) and moderate regularization (LR C=1.0) yielding optimal results.
-
-### Technical Insights
-
-1. **Feature Engineering Impact**: TF-IDF vectorization proved highly effective for traditional ML models, while learned embeddings in deep learning models provided competitive but not superior performance.
-
-2. **Optimizer Selection**: RMSprop consistently outperformed Adam for both LSTM and GRU models, highlighting the importance of optimizer selection for text classification tasks.
-
-3. **Dataset Balance**: The perfectly balanced IMDB dataset contributed to consistent performance across all metrics, validating our experimental design.
-
-### Practical Recommendations
-
-For similar sentiment analysis tasks, we recommend:
-
-1. **Start with Traditional ML**: Implement SVM or Logistic Regression as baseline models due to their excellent performance-to-complexity ratio
-2. **Consider Deep Learning for Complex Tasks**: Reserve LSTM/GRU for tasks requiring more sophisticated sequence understanding
-3. **Prioritize Regularization**: Implement proper regularization techniques regardless of model choice
-4. **Systematic Hyperparameter Tuning**: Conduct comprehensive parameter search for optimal performance
-
-### Future Research Directions
-
-1. **Transformer Models**: Investigate BERT, RoBERTa, or other transformer-based approaches
-2. **Ensemble Methods**: Combine strengths of traditional ML and deep learning models
-3. **Advanced Preprocessing**: Implement more sophisticated text preprocessing techniques
-4. **Multi-class Extension**: Extend the framework to handle fine-grained sentiment classification
-
-This project successfully fulfills all assignment requirements, demonstrating comprehensive understanding of both traditional machine learning and deep learning approaches to sentiment analysis, supported by rigorous experimental methodology and thorough performance analysis.
+- **DL Optimization**: Conducted hyperparameter tuning across multiple optimizer and batch size configurations
+- **Visualization**: Created GRU-specific training curves and confusion matrix visualizations
 
 ---
 
@@ -423,13 +383,11 @@ This project successfully fulfills all assignment requirements, demonstrating co
 
 5. Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval. *Cambridge University Press*. Chapter 13: Text classification and Naive Bayes. Available at: https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf
 
-7. Olah, C. (2015). Understanding LSTM Networks. *Colah's Blog*. Available at: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+6. Olah, C. (2015). Understanding LSTM Networks. *Colah's Blog*. Available at: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
-11. Zhang, L., Wang, S., & Liu, B. (2018). Deep learning for sentiment analysis: A survey. *Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*, 8(4), e1253. Available at: https://onlinelibrary.wiley.com/doi/full/10.1002/widm.1253
-
-12. Chollet, F. (2021). Deep Learning with Python. *Manning Publications*. Chapter 6: Deep learning for text and sequences. Available at: https://www.manning.com/books/deep-learning-with-python-second-edition
+7. Zhang, L., Wang, S., & Liu, B. (2018). Deep learning for sentiment analysis: A survey. *Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*, 8(4), e1253. Available at: https://onlinelibrary.wiley.com/doi/full/10.1002/widm.1253
 
 ---
 
 **GitHub Repository**: [https://github.com/dean-daryl/sentiment-analysis](https://github.com/dean-daryl/sentiment-analysis)  
-**Team**: Group 10 - Dean Daryl Murenzi, Nelly Iyabikoze, Excel Asaph,
+**Team**: Group 10 - Dean Daryl Murenzi, Nelly Iyabikoze, Excel Asaph
